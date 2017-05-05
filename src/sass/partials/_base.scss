@@ -1,0 +1,31 @@
+// FONTS
+@include font-face("Exo2", "../../fonts/Exo2-Light", 300, $file-formats: ttf);
+@include font-face("Exo2", "../../fonts/Exo2-Regular", 400, $file-formats: ttf);
+@include font-face("Exo2", "../../fonts/Exo2-Medium", 500, $file-formats: ttf);
+@include font-face("Exo2", "../../fonts/Exo2-SemiBold", 600, $file-formats: ttf);
+@include font-face("Exo2", "../../fonts/Exo2-Black", 900, $file-formats: ttf);
+@include font-face("Roboto", "../../fonts/Roboto-Regular", 400, $file-formats: ttf);
+@include font-face("Roboto", "../../fonts/Roboto-Medium", 500, $file-formats: ttf);
+@include font-face("RobotoCondensed", "../../fonts/RobotoCondensed-Regular", 400, $file-formats: ttf);
+@include font-face("RobotoCondensed", "../../fonts/RobotoCondensed-Light", 300, $file-formats: ttf);
+@include font-face("RobotoCondensed", "../../fonts/RobotoCondensed-Bold", 700, $file-formats: ttf);
+@include font-face("MyriadPro", "../../fonts/MyriadPro-Regular", 400, $file-formats: otf);
+
+
+// VARIABLES
+$color-primary: #f68921;
+$color-secondary: #0085a9;
+$color-third: #f9f9f9;
+
+$color-text: #424649;
+ 
+$footer-height: 240px;
+
+$font-base: 'Exo2';
+$font-special: 'Roboto';
+$font-special-two: 'RobotoCondensed';
+
+$font-size-base: 16px;
+
+
+// MIXINS
