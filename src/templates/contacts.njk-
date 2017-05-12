@@ -1,0 +1,60 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+
+<div class="page-top">
+	<div class="container">
+		<h1 class="page-title">Контакты</h1>
+		<div class="row">
+			<div class="col-sm-5 col-md-4">
+				<div class="contacts-wrap">
+					<div class="contacts_info">
+						<h4>Адрес офиса:</h4>
+						<p>
+							г. Минск, ул. Скрыганова, 6а, этаж 4 <br>
+							УНП 190437288, ОКПО 37594402
+						</p>
+					</div>
+					<div class="contacts_info">
+						<h4>Почтовый адрес:</h4>
+						<p>
+							Республика Беларусь, 220073<br>
+							г. Минск, ул. Скрыганова, 6а, пом.12
+						</p>
+					</div>
+					<div class="contacts_info">
+						<h4>Телефоны:</h4>
+						<p>
+							+7 727 267-75-90<br>
+							+7 727 239-04-82<br>
+							+7 727 267-75-70
+						</p>
+					</div>
+					<div class="contacts_info">
+						<h4>E-mail:</h4>
+						<p>info@orangepoint.kz</p>
+					</div>
+					<div class="contacts_info">
+						<h4>Время работы:</h4>
+						<p>9.00-18.00 (Пн-Пт)</p>
+					</div>
+					<div class="contacts_info">
+						<h4>Банковские реквизиты:</h4>
+						<p>
+							р/с 3012283110217 BYN<br>
+							в ЦБУ №3 ЗАО «МТБанк», код 117<br>
+							Адрес банка: г. Минск, ул. Короля, 51
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-7 col-md-8">
+				<div class="map-block">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

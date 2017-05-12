@@ -1,0 +1,307 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+
+<div class="page-top">
+	<div class="container">
+		<h1 class="page-title">О компании Orange Point</h1>
+		<div class="row">
+			<div class="col-md-2">
+				<nav class="pages-nav">
+					<ul>
+						<li class="active"><a href="#"><span>О компании</span></a></li>
+						<li><a href="#"><span>История компании</span></a></li>
+						<li><a href="#"><span>Наша миссия</span></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-5 col-md-6">
+				<div class="text-block">
+					<p>
+						«ТОО «Orange Point Agency» является официальным партнером Яндекса по продажам рекламных услуг в Казахстане. Наш офис был открыт в октябре 2009 с целью популяризации продуктов и сервисов Яндекса на местном рынке. Также мы являемся сейлс-хаузом по эксклюзивной продаже рекламного времени на следующих медийных ресурсах.
+					</p>
+					<p class="corner-line">
+						Направления услуг агентства: продвижение сайтов, контекстная реклама, веб-аналитика, юзабилити и консалтинг (подробнее можно узнать в разделе «Услуги»). Среди наших клиентов — множество порталов, интернет-магазинов, UGC-проектов — популярнейших сайтов в своих тематиках. Часть наших клиентов представлена в разделе «Клиенты и отзывы».
+					</p>
+					<h3>Мы продвигаем не сайт, а бизнес клиента.</h3>
+					<p>
+						Наша цель — привести не посетителей сайта, а будущих клиентов нашего заказчика. В этом кардинальное различие нашего подхода от большинства агентств интернет-маркетинга.
+					</p>
+					<h3>Мы действительно хотим сделать этот мир лучше.</h3>
+					<p>
+						Поэтому мы стремимся не только помогать бизнесу наших клиентов, но и предоставить сотрудникам компании интересный и полезный вид деятельности, который даст им возможность получать удовольствие от достижения результатов и возможность быть обеспеченными и уверенными в себе личностями. Мы пытаемся собрать в своей команде всех лучших специалистов на рынке. Практически всегда мы нуждаемся в «новых» хороших людях и если вы — потенциально один из нас, то свяжитесь с нами через раздел «Вакансии».
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-offset-1">
+				<div class="digits-wrap">
+					<div class="digit_item">
+						<div class="digit_item-count">10</div>
+						<div class="digit_item-title">лет на рынке</div>
+					</div>
+					<div class="digit_item">
+						<div class="digit_item-count">25</div>
+						<div class="digit_item-title">наград</div>
+					</div>
+					<div class="digit_item">
+						<div class="digit_item-count">1 845</div>
+						<div class="digit_item-title">успешных проектов</div>
+					</div>
+					<div class="digit_item">
+						<div class="digit_item-count">101</div>
+						<div class="digit_item-title">сетрификатов</div>
+					</div>
+					<div class="digit_item">
+						<div class="digit_item-count">50</div>
+						<div class="digit_item-title">сотрудников</div>
+					</div>
+					<div class="digit_item">
+						<div class="digit_item-count">87</div>
+						<div class="digit_item-title">выступлений</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="section">
+	<div class="container">
+		<h3 class="block-title">Наши преимущества</h3>
+		<div class="row advantages">
+			<div class="col-md-6 advantage_item">
+				<div class="advantage_item-icon">
+					<img src="images/advantage-item-1.svg" class="img-responsive" alt="#">
+				</div>
+				<div class="advantage_item-description">
+					<h4>Lorem ipsum dolor sitamet, consectetur</h4>
+					<p>
+						Adipiscing elit. Vestibulum facilisis ultricies mattis. Cras pretium ac orci sollicitudin nisl. Quisque semper lorem a ultricies maximus. Phasellus scelerisque turpis in nulla tempor pharetra sed ut lacus. Aliquam ac orci.<br>
+						<strong>Aliquam varius, eros dui vestibulum risus, ut pellentesque turpis.</strong>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 advantage_item">
+				<div class="advantage_item-icon">
+					<img src="images/advantage-item-2.svg" class="img-responsive" alt="#">
+				</div>
+				<div class="advantage_item-description">
+					<h4>Lorem ipsum dolor sitamet, consectetur</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, deleniti sint ipsa mollitia quo dolorem sunt perferendis, rem quod alias nihil quibusdam. Repudiandae nihil quas praesentium, velit ullam delectus harum ipsa eius dolores iure non sapiente minima magni blanditiis sed a natus, porro impedit veritatis maiores incidunt placeat rem aspernatur quis officia. A incidunt recusandae quibusdam veritatis officia magni eligendi sequi
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 advantage_item">
+				<div class="advantage_item-icon">
+					<img src="images/advantage-item-3.svg" class="img-responsive" alt="#">
+				</div>
+				<div class="advantage_item-description">
+					<h4>Lorem ipsum dolor sitamet, consectetur</h4>
+					<p>
+						Adipiscing elit. Vestibulum facilisis ultricies mattis. Cras pretium ac orci sollicitudin nisl. Quisque semper lorem a ultricies maximus. Phasellus scelerisque turpis in nulla tempor pharetra sed ut lacus. Aliquam ac orci.<br>
+						<strong>Aliquam varius, eros dui vestibulum risus, ut pellentesque turpis.</strong>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 advantage_item">
+				<div class="advantage_item-icon">
+					<img src="images/advantage-item-4.svg" class="img-responsive" alt="#">
+				</div>
+				<div class="advantage_item-description">
+					<h4>Lorem ipsum dolor sitamet, consectetur</h4>
+					<p>
+						Adipiscing elit. Vestibulum facilisis ultricies mattis. Cras pretium ac orci sollicitudin nisl. Quisque semper lorem a ultricies maximus. Phasellus scelerisque turpis in nulla tempor pharetra sed ut lacus. Aliquam ac orci.<br>
+						<strong>Aliquam varius, eros dui vestibulum risus, ut pellentesque turpis.</strong>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 advantage_item">
+				<div class="advantage_item-icon">
+					<img src="images/advantage-item-5.svg" class="img-responsive" alt="#">
+				</div>
+				<div class="advantage_item-description">
+					<h4>Lorem ipsum dolor sitamet, consectetur</h4>
+					<p>
+						Adipiscing elit. Vestibulum facilisis ultricies mattis. Cras pretium ac orci sollicitudin nisl. Quisque semper lorem a ultricies maximus. Phasellus scelerisque turpis in nulla tempor pharetra sed ut lacus. Aliquam ac orci.<br>
+						<strong>Aliquam varius, eros dui vestibulum risus, ut pellentesque turpis.</strong>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 advantage_item">
+				<div class="advantage_item-icon">
+					<img src="images/advantage-item-6.svg" class="img-responsive" alt="#">
+				</div>
+				<div class="advantage_item-description">
+					<h4>Lorem ipsum dolor sitamet, consectetur</h4>
+					<p>
+						Adipiscing elit. Vestibulum facilisis ultricies mattis. Cras pretium ac orci sollicitudin nisl. Quisque semper lorem a ultricies maximus. Phasellus scelerisque turpis in nulla tempor pharetra sed ut lacus. Aliquam ac orci.<br>
+						<strong>Aliquam varius, eros dui vestibulum risus, ut pellentesque turpis.</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="callback-section">
+	<div class="container">
+		<h3 class="callback-section_title">Оставить заявку сейчас</h3>
+		<form class="callback-section_form">
+			<div class="form-group">
+				<div class="form-item">
+					<input type="text" name="name" class="form-input" placeholder="Ваше имя">
+				</div>
+				<div class="form-item">
+					<input type="text" name="name" class="form-input" placeholder="Контактный телефон">
+				</div>
+			</div>
+			<button type="btn" class="btn">Оставить заявку</button>
+		</form>
+	</div>
+</section>
+
+<section class="section team-section">
+	<div class="container">
+		<h3 class="block-title">Наша команда</h3>
+		<div class="row team-wrap">
+			<div class="col-md-6 team_item">
+				<div class="team_item-block">
+					<h5 class="team_item-count">44</h5>
+					<h4 class="team_item-title">специалиста по контекстной рекламе</h4>
+					<div class="team_item-members">
+						<span class="member"></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 team_item">
+				<div class="team_item-block">
+					<h5 class="team_item-count">25</h5>
+					<h4 class="team_item-title">специалистов по поисковому продвижению</h4>
+					<div class="team_item-members">
+						<span class="member"></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 team_item">
+				<div class="team_item-block">
+					<h5 class="team_item-count">34</h5>
+					<h4 class="team_item-title">специалиста по социальной рекламе</h4>
+					<div class="team_item-members">
+						<span class="member"></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 team_item">
+				<div class="team_item-block">
+					<h5 class="team_item-count">5</h5>
+					<h4 class="team_item-title">программистов</h4>
+					<div class="team_item-members">
+						<span class="member"></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 team_item">
+				<div class="team_item-block">
+					<h5 class="team_item-count">10</h5>
+					<h4 class="team_item-title">специалистов по продажам</h4>
+					<div class="team_item-members">
+						<span class="member"></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 team_item">
+				<div class="team_item-block">
+					<h5 class="team_item-count">15</h5>
+					<h4 class="team_item-title">копирайтеров</h4>
+					<div class="team_item-members">
+						<span class="member"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<h3 class="block-title">Сертификаты и награды</h3>
+		<div class="sertificates-slider">
+			<div class="sertificate_item">
+				<a href="#" data-fancybox="serticates" data-src="#sertificate_item-content-1">
+					<div class="sertificate_item-caption">
+						<span>СЕРТИФИКАТ</span>
+						<span>Название:</span>
+						<span class="sertificate_item-name">ISO 9000 : 2000 2015 г.</span>
+					</div>
+				</a>
+				<div class="sertificate_item-content" id="sertificate_item-content-1">
+					<img src="images/sertficate-example.jpg" class="img-responsive">
+				</div>
+			</div>
+			<div class="sertificate_item">
+				<a href="#" data-fancybox="serticates" data-src="#sertificate_item-content-2">
+					<div class="sertificate_item-caption">
+						<span>СЕРТИФИКАТ</span>
+						<span>Название:</span>
+						<span class="sertificate_item-name">ISO 9000 : 2000 2015 г.</span>
+					</div>
+				</a>
+				<div class="sertificate_item-content" id="sertificate_item-content-2">
+					<img src="images/sertficate-example.jpg" class="img-responsive">
+				</div>
+			</div>
+			<div class="sertificate_item">
+				<a href="#" data-fancybox="serticates" data-src="#sertificate_item-content-3">
+					<div class="sertificate_item-caption">
+						<span>СЕРТИФИКАТ</span>
+						<span>Название:</span>
+						<span class="sertificate_item-name">ISO 9000 : 2000 2015 г.</span>
+					</div>
+				</a>
+				<div class="sertificate_item-content" id="sertificate_item-content-3">
+					<img src="images/sertficate-example.jpg" class="img-responsive">
+				</div>
+			</div>
+			<div class="sertificate_item">
+				<a href="#" data-fancybox="serticates" data-src="#sertificate_item-content-4">
+					<div class="sertificate_item-caption">
+						<span>СЕРТИФИКАТ</span>
+						<span>Название:</span>
+						<span class="sertificate_item-name">ISO 9000 : 2000 2015 г.</span>
+					</div>
+				</a>
+				<div class="sertificate_item-content" id="sertificate_item-content-4">
+					<img src="images/sertficate-example.jpg" class="img-responsive">
+				</div>
+			</div>
+			<div class="sertificate_item">
+				<a href="#" data-fancybox="serticates" data-src="#sertificate_item-content-5">
+					<div class="sertificate_item-caption">
+						<span>СЕРТИФИКАТ</span>
+						<span>Название:</span>
+						<span class="sertificate_item-name">ISO 9000 : 2000 2015 г.</span>
+					</div>
+				</a>
+				<div class="sertificate_item-content" id="sertificate_item-content-5">
+					<img src="images/sertficate-example.jpg" class="img-responsive">
+				</div>
+			</div>
+			<div class="sertificate_item">
+				<a href="#" data-fancybox="serticates" data-src="#sertificate_item-content-6">
+					<div class="sertificate_item-caption">
+						<span>СЕРТИФИКАТ</span>
+						<span>Название:</span>
+						<span class="sertificate_item-name">ISO 9000 : 2000 2015 г.</span>
+					</div>
+				</a>
+				<div class="sertificate_item-content" id="sertificate_item-content-6">
+					<img src="images/sertficate-example.jpg" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		<div class="section-bottom"><a href="#" class="btn">Посмотреть все</a></div>
+	</div>
+</section>
+
+{% endblock %}

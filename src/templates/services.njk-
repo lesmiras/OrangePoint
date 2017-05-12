@@ -1,0 +1,49 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+
+<div class="page-top">
+	<div class="container">
+		<h1 class="page-title">Наши услуги</h1>
+		<div class="services-wrap">
+			<div class="service_item">
+				<a href="#">
+					<span class="service_item-title">Контекстная реклама</span>
+					<img src="images/service-item-1.svg" class="img-responsive" alt="#">
+				</a>
+			</div>
+			<div class="service_item">
+				<a href="#">
+					<span class="service_item-title">SEO продвижение сайта</span>
+					<img src="images/service-item-2.svg" class="img-responsive" alt="#">
+				</a>
+			</div>
+			<div class="service_item">
+				<a href="#">
+					<span class="service_item-title">SMM продвижение</span>
+					<img src="images/service-item-3.svg" class="img-responsive" alt="#">
+				</a>
+			</div>
+			<div class="service_item">
+				<a href="#">
+					<span class="service_item-title">Медийно-контекстная реклама в Яндексе</span>
+					<img src="images/service-item-4.svg" class="img-responsive" alt="#">
+				</a>
+			</div>
+			<div class="service_item">
+				<a href="#">
+					<span class="service_item-title">Размещение сайта в Яндекс. Маркете</span>
+					<img src="images/service-item-5.svg" class="img-responsive" alt="#">
+				</a>
+			</div>
+			<div class="service_item">
+				<a href="#">
+					<span class="service_item-title">Реклама по RTB-технологии</span>
+					<img src="images/service-item-6.svg" class="img-responsive" alt="#">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
