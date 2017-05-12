@@ -226,7 +226,7 @@
 <section class="section">
 	<div class="container">
 		<h3 class="block-title">Сертификаты и награды</h3>
-		<div class="sertificates-slider">
+		<div class="sertificates-slider owl-carousel">
 			<div class="sertificate_item">
 				<a href="#" data-fancybox="serticates" data-src="#sertificate_item-content-1">
 					<div class="sertificate_item-caption">

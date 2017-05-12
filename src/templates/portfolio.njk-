@@ -1,0 +1,71 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+
+<div class="page-top">
+	<div class="container">
+		<h1 class="page-title">Портфолио</h1>
+		<div class="row">
+			<div class="col-md-2">
+				<nav class="pages-nav portfolios-nav">
+					<ul>
+						<li class="active"><a href="#"><span>Все</span></a></li>
+						<li><a href="#"><span>SEO</span></a></li>
+						<li><a href="#"><span>Контексная реклама</span></a></li>
+						<li><a href="#"><span>SMM</span></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-10">
+				<div class="portfolios-wrap">
+					<div class="portfolio_item">
+						<div class="portfolio_item-block">
+							<img src="images/portfolio-item.jpg" class="img-responsive" alt="#">
+							<div class="portfolio_item-caption">
+								<h4 class="portfolio_item-title">Genom X 2030</h4>
+								<div class="portfolio_item-type">тип услуги: <span>SEO</span></div>
+								<div class="portfolio_item-theme">тематика сайта: <span>биология приматов</span></div>
+							</div>
+							<a href="#" class="portfolio_item-link">Посмотреть кейс</a>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio_item-block">
+							<img src="images/portfolio-item.jpg" class="img-responsive" alt="#">
+							<div class="portfolio_item-caption">
+								<h4 class="portfolio_item-title">Genom X 2030</h4>
+								<div class="portfolio_item-type">тип услуги: <span>SEO</span></div>
+								<div class="portfolio_item-theme">тематика сайта: <span>биология приматов</span></div>
+							</div>
+							<a href="#" class="portfolio_item-link">Посмотреть кейс</a>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio_item-block">
+							<img src="images/portfolio-item.jpg" class="img-responsive" alt="#">
+							<div class="portfolio_item-caption">
+								<h4 class="portfolio_item-title">Genom X 2030</h4>
+								<div class="portfolio_item-type">тип услуги: <span>SEO</span></div>
+								<div class="portfolio_item-theme">тематика сайта: <span>биология приматов</span></div>
+							</div>
+							<a href="#" class="portfolio_item-link">Посмотреть кейс</a>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="portfolio_item-block">
+							<img src="images/portfolio-item.jpg" class="img-responsive" alt="#">
+							<div class="portfolio_item-caption">
+								<h4 class="portfolio_item-title">Genom X 2030</h4>
+								<div class="portfolio_item-type">тип услуги: <span>SEO</span></div>
+								<div class="portfolio_item-theme">тематика сайта: <span>биология приматов</span></div>
+							</div>
+							<a href="#" class="portfolio_item-link">Посмотреть кейс</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

@@ -112,7 +112,7 @@
 	<div class="container">
 		<h3 class="block-title">Наши клиенты</h3>
 		<div class="clients">
-			<div class="clients-slider">
+			<div class="clients-slider owl-carousel">
 				<div class="client_item">
 					<span><img src="images/client-item-1.jpg"></span>
 				</div>

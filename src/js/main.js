@@ -93,7 +93,42 @@ $(function(){
             }
         },
         onInitialized: function(){
-            $('.clients-slider').addClass('owl-carousel').css({'height': 'auto', 'visibility':'visible'});
+            $('.clients-slider').css({'height': 'auto', 'visibility':'visible'});
+        }
+    });
+
+     // Portfolio Carosel
+    // ============================================
+    $('.portfolios-slider').owlCarousel({
+        loop: true,
+        margin: 35,
+        nav: true,
+        dots: false,
+        navText: ['',''],
+        responsive: {
+            0:{
+                items: 2,
+                dots: true,
+                nav: false,
+                margin: 10,
+            },
+            481: {
+                items: 2,
+                dots: true,
+                nav: false,
+                margin: 15,
+            },
+            768:{
+                items: 3,
+                dots: false,
+                nav: true,
+            },
+            992:{
+                items: 4,
+            }
+        },
+        onInitialized: function(){
+            $('.portfolios-slider').css({'height': 'auto', 'visibility':'visible'});
         }
     });
 
@@ -132,35 +167,44 @@ $(function(){
             }
         },
         onInitialized: function(){
-            $('.sertificates-slider').addClass('owl-carousel').css({'height': 'auto', 'visibility':'visible'});
+            $('.sertificates-slider').css({'height': 'auto', 'visibility':'visible'});
         }
     });
 
-    // Owl Carosel
+    // Reviews Carosel
     // ============================================
-    // $('.owl-carousel').owlCarousel({
-    //     loop: true,
-    //     margin: 30,
-    //     nav: true,
-    //     dots: false,
-    //     navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-    //     responsive: {
-    //         0:{
-    //             items: 2,
-    //             dots: true,
-    //             nav: false,
-    //             margin: 10,
-    //         },
-    //         768:{
-    //             items: 3,
-    //             dots: false,
-    //             nav: true,
-    //         },
-    //         992:{
-    //             items: 4,
-    //         }
-    //     }
-    // });
+    $('.reviews-slider').owlCarousel({
+        loop: true,
+        margin: 40,
+        nav: true,
+        dots: false,
+        navText: ['',''],
+        responsive: {
+            0:{
+                items: 1,
+                dots: true,
+                nav: false,
+                margin: 20,
+            },
+            481: {
+                items: 1,
+                dots: true,
+                nav: false,
+                margin: 15,
+            },
+            768:{
+                items: 2,
+                dots: false,
+                nav: true,
+            },
+            992:{
+                items: 3
+            }
+        },
+        onInitialized: function(){
+            $('.reviews-slider').css({'height': 'auto', 'visibility':'visible'});
+        }
+    });
 
 });
 
